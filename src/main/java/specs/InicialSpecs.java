@@ -12,7 +12,7 @@ public class InicialSpecs {
 
     public static RequestSpecification setup() {
         return new RequestSpecBuilder()
-                .setBaseUri("http://172.18.0.3:3000")
+                .setBaseUri("http://172.19.0.2:3000")
                 .setConfig(config().logConfig(
                         logConfig().enableLoggingOfRequestAndResponseIfValidationFails()
                 ))
