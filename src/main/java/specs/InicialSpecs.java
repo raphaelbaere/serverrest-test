@@ -12,7 +12,7 @@ public class InicialSpecs {
 
     public static RequestSpecification setup() {
         return new RequestSpecBuilder()
-                .setBaseUri("http://localhost")
+                .setBaseUri("http://confident_allen")
                 .setConfig(config().logConfig(
                         logConfig().enableLoggingOfRequestAndResponseIfValidationFails()
                 ))
